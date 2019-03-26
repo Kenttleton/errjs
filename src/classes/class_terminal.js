@@ -1,8 +1,6 @@
 /**
- * @fileoverview Plural for erratum, Latin for Error, is an
- *  iteratable collection of erratum.
- * @supported IE9+, Chrome, Firefox
- * @author (Kent Utterback)
+ * Extending the console interface which allows for more robust console output
+ * @extends {console}
  */
 class Terminal extends console {
   /** @super */
