@@ -8,9 +8,9 @@ ErrJS is a verbose error handling module for use in the browser and NodJS applic
 
 As ErrJS continues to grow, help is always appreciated with bug reporting and feature requests as well as contributions.
 
-[Report A Bug ![alt text](https://wiki.oceanreeflifegame.com/wp-content/uploads/2017/01/bug-report-icon.png "Report A Bug")](https://github.com/Kavinci/errjs/issues/new?assignees=Kavinci&labels=bug&template=bug_report.md&title=)
+[Report A Bug ![alt text](https://github.com/Kavinci/errjs/blob/master/assets/bug-report-icon80x80.png "Report A Bug")](https://github.com/Kavinci/errjs/issues/new?assignees=Kavinci&labels=bug&template=bug_report.md&title=)
 
-[Submit A Feature](https://github.com/Kavinci/errjs/issues/new?assignees=Kavinci&labels=enhancement&template=feature_request.md&title=)
+[Submit A Feature ![alt text](https://github.com/Kavinci/errjs/blob/master/assets/feature-icon-1P-1-80x80.png "Submit A Feature")](https://github.com/Kavinci/errjs/issues/new?assignees=Kavinci&labels=enhancement&template=feature_request.md&title=)
 
 ## Documentation:
 
