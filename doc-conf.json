@@ -22,7 +22,6 @@
 		"encoding": "utf8",
 		"destination": "./docs/",
 		"recurse": true,
-		"readme": "README.md",
-		"package": "package.json"
+		"readme": "README.md"
 	}
 }
