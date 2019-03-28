@@ -1,9 +1,13 @@
 {
+	"override": false,
 	"watch": {
 		"directories": "../",
 		"recursive": false
 	},
 	"update": {
 		"delimiter": "//errskip"
+	},
+	"package": {
+		"version": "1.0.2"
 	}
 }
