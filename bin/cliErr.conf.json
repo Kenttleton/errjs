@@ -1,0 +1,9 @@
+{
+	"watch": {
+		"directories": "../",
+		"recursive": false
+	},
+	"update": {
+		"delimiter": "//errskip"
+	}
+}

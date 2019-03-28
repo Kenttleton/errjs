@@ -2,8 +2,13 @@
 	"name": "errjs",
 	"version": "1.0.0",
 	"description": "Verbose Javascript error handling.",
-	"main": "errjs.min.js",
+	"browser": "publish/errjs.min.js",
+	"main": "node version",
+	"bin": {
+		"err": "./bin/cli_err.js"
+	},
 	"scripts": {
+		"install": "cross-env ERRJS_VERSION=1.0.0",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"docs": "jsdoc -c doc-conf.json"
 	},
@@ -21,12 +26,26 @@
 		"node",
 		"nodejs"
 	],
-	"author": "Kent Utterback",
-	"license": "MIT",
+	"author": {
+		"name": "Kent Utterback",
+		"email": "utterback.kent.a@gmail.com",
+		"url": "http://kentutterback.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/Kavinci/errjs/blob/master/LICENSE"
+		}
+	],
 	"devDependencies": {
+		"commander": "^2.19.0",
+		"cross-env": "^5.2.0",
 		"eslint": "^5.15.3",
 		"eslint-config-google": "^0.12.0",
 		"jsdoc": "^3.5.5"
+	},
+	"engines": {
+		"node": ""
 	},
 	"repository": {
 		"type": "git",

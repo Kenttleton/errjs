@@ -76,7 +76,7 @@ class Errata {
               'class_errata.js',
               72
           );
-          Terminal.error();
+          Terminal.error(Object.prototype.toString(error));
         }
       }
       return output;
