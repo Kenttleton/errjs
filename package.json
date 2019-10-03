@@ -8,7 +8,7 @@
 		"err": "./bin/cli_err.js"
 	},
 	"scripts": {
-		"install": "node /bin/cli_err.js -r",
+		"post-install": "node ./bin/cli_err.js -r",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"docs": "jsdoc -c doc-conf.json"
 	},
@@ -39,11 +39,11 @@
 		}
 	],
 	"devDependencies": {
-		"commander": "^2.19.0",
-		"eslint": "^5.15.3",
-		"eslint-config-google": "^0.12.0",
-		"jsdoc": "^3.5.5",
-		"node-watch": "^0.6.0"
+		"commander": "^3.0.2",
+		"eslint": "^6.5.1",
+		"eslint-config-google": "^0.14.0",
+		"jsdoc": "^3.6.3",
+		"node-watch": "^0.6.3"
 	},
 	"engines": {
 		"node": ""
