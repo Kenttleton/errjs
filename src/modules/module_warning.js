@@ -2,7 +2,7 @@
  * Verbose warning engine
  * @module Warning
  */
-const Warning = (function(Warning) {
-  const init = function() {};
-  return {init};
+const Warning = (function() {
+    const init = function() {};
+    return {init};
 })(Warning, undefined);

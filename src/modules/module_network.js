@@ -3,7 +3,7 @@
  *      verbose errors
  * @module Network
  */
-const Network = (function(Network) {
-  const init = function() {};
-  return {init};
+const Network = (function() {
+    const init = function() {};
+    return {init};
 })(Network, undefined);
