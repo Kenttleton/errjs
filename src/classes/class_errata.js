@@ -4,9 +4,9 @@
  */
 class Errata {
   /**
-	 * @constructor
-	 * @param {!Array<Erratum>} errata An array of Erratum
-	 */
+   * @constructor
+   * @param {!Array<Erratum>} errata An array of Erratum
+   */
   constructor(errata) {
     if (!Array.isArray(errata) && typeof errata !== 'undefined') {
       const error = new Erratum(
@@ -26,9 +26,9 @@ class Errata {
     }
   }
   /**
-	 * Add an erratum to the collection
-	 * @param {Erratum} erratum See {@link Erratum} for type definition
-	 */
+   * Add an erratum to the collection
+   * @param {Erratum} erratum See {@link Erratum} for type definition
+   */
   Add(erratum) {
     if (!erratum instanceof Erratum) {
       const error = new Erratum(
@@ -42,9 +42,9 @@ class Errata {
     this.errata.push(erratum);
   }
   /**
-	 * Remove an erratum from the collection
-	 * @param {Erratum} erratum See {@link Erratum} for type definition
-	 */
+   * Remove an erratum from the collection
+   * @param {Erratum} erratum See {@link Erratum} for type definition
+   */
   Remove(erratum) {
     if (!erratum instanceof Erratum) {
       const error = new Erratum(
@@ -59,11 +59,11 @@ class Errata {
     // remove logic here
   }
   /**
-	 * Iterate over the collection and perform the function logic.
-	 * @param {function} method The method can support an input or not
-	 * @return {Errata} Output {@link Erratum} object based on the input method
-	 * criteria
-	 */
+   * Iterate over the collection and perform the function logic.
+   * @param {function} method The method can support an input or not
+   * @return {Errata} Output {@link Erratum} object based on the input method
+   * criteria
+   */
   ForEach(method) {
     if (typeof method === 'function') {
       const output = new Errata();
@@ -83,10 +83,10 @@ class Errata {
     }
   }
   /**
-	 * Iterate over the collection and return if Erratum exists else return false.
-	 * @param {Erratum} erratum See {@link Erratum} for type definition
-	 * @return {boolean} True if the input exists or False if it does not
-	 */
+   * Iterate over the collection and return if Erratum exists else return false.
+   * @param {Erratum} erratum See {@link Erratum} for type definition
+   * @return {boolean} True if the input exists or False if it does not
+   */
   Contains(erratum) {
     return false;
   }

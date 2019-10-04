@@ -3,18 +3,18 @@ const errorType = {
   /** Used for generic errors and default error type */
   GENERIC: 'generic',
   /**
-	 * {@link datatype Data Type} related errors
-	 * @enum {datatype}
-	 */
-  DATATYPE: datatype,
+   * {@link dataType Data Type} related errors
+   * @enum {dataType}
+   */
+  DATATYPE: dataType,
   /**
-	 * {@link http HTTP and AJAX} related errors
-	 * @enum {http}
-	 */
+   * {@link http HTTP and AJAX} related errors
+   * @enum {http}
+   */
   HTTP: httpStatus,
 };
 /** @enum {string} Data Type related errors */
-const datatype = {
+const dataType = {
   /** Used for invalid datatypes */
   MISSMATCH: 'missmatch',
   /** Used for iteratables of the wrong size */

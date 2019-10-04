@@ -12,10 +12,10 @@
 		"dictionaries": ["jsdoc", "closure"]
 	},
 	"templates": {
-		"cleverLinks": true,
-		"monospaceLinks": true,
+		"cleverLinks": false,
+		"monospaceLinks": false,
 		"defaults": {
-			"outputSourceFiles": true
+			"outputSourceFiles": false
 		}
 	},
 	"opts": {
