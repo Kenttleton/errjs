@@ -39,7 +39,7 @@
 		}
 	],
 	"devDependencies": {
-		"acorn": "^7.1.0",
+		"acorn": "^7.1.1",
 		"acorn-stage3": "^2.0.0",
 		"commander": "^3.0.2",
 		"eslint": "^6.5.1",
